@@ -7,8 +7,8 @@ int main() {
     printf("请输入3到20间的数");
   else {
     int l=(N +1)/ 2;
-    for (int i = 1; i <= l; i++) {
-      if (i == 1 || i ==l) {
+    for (int i = 0; i < l; i++) {
+      if (i == 0 || i ==l-1) {
         for (int j = 1; j <= N; j++)
           printf("%c", C);
           
